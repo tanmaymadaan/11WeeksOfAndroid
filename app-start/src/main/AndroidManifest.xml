@@ -78,9 +78,11 @@
             android:launchMode="singleInstance"
             android:theme="@style/Theme.People.Voice" />
 
-        <!-- TODO 6: This is our extended Bubble. -->
         <activity
-            android:name="com.example.android.people.BubbleActivity">
+            android:name="com.example.android.people.BubbleActivity"
+            android:allowEmbedded="true"
+            android:documentLaunchMode="always"
+            android:resizeableActivity="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.BROWSABLE" />

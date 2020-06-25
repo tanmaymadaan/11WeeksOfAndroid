@@ -126,7 +126,6 @@ class NotificationHelper(private val context: Context) {
         val contentUri = "https://android.example.com/chat/${chat.contact.id}".toUri()
 
         val builder = Notification.Builder(context, CHANNEL_NEW_MESSAGES)
-            // TODO 5: Set up a BubbleMetadata.
             .setBubbleMetadata(
                 Notification.BubbleMetadata
                     .Builder(
