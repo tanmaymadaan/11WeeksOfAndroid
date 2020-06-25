@@ -131,8 +131,29 @@ class NotificationHelper(private val context: Context) {
                     .setAllowGeneratedReplies(true)
                     .build()
             )
-            // TODO 1: Use MessagingStyle.
-            .setContentText(chat.messages.last().text)
+            .setStyle(
+                Notification.MessagingStyle(user)
+                    .apply {
+                        val lastId = chat.messages.last().id
+                        for (message in chat.messages) {
+                            val m = Notification.MessagingStyle.Message(
+                                message.text,
+                                message.timestamp,
+                                if (message.isIncoming) person else null
+                            ).apply {
+                                if (message.photoUri != null) {
+                                    setData(message.photoMimeType, message.photoUri)
+                                }
+                            }
+                            if(message.id < lastId) {
+                                addHistoricMessage(m)
+                            } else {
+                                addMessage(m)
+                            }
+                        }
+                    }
+                    .setGroupConversation(false)
+            )
             .setWhen(chat.messages.last().timestamp)
 
         notificationManager.notify(chat.contact.id.toInt(), builder.build())
