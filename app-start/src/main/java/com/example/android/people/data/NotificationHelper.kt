@@ -140,6 +140,12 @@ class NotificationHelper(private val context: Context) {
                         icon
                     )
                     .setDesiredHeightResId(R.dimen.bubble_height)
+                    .apply {
+                        if (fromUser) {
+                            setAutoExpandBubble(true)
+                            setSuppressNotification(true)
+                        }
+                    }
                     .build()
             )
             // The user can turn off the bubble in system settings. In that case, this notification
