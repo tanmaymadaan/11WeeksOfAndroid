@@ -127,12 +127,27 @@ class NotificationHelper(private val context: Context) {
 
         val builder = Notification.Builder(context, CHANNEL_NEW_MESSAGES)
             // TODO 5: Set up a BubbleMetadata.
+            .setBubbleMetadata(
+                Notification.BubbleMetadata
+                    .Builder(
+                        PendingIntent.getActivity(
+                            context,
+                            REQUEST_BUBBLE,
+                            Intent(context, BubbleActivity::class.java)
+                                .setAction(Intent.ACTION_VIEW)
+                                .setData(contentUri),
+                            PendingIntent.FLAG_UPDATE_CURRENT
+                        ),
+                        icon
+                    )
+                    .setDesiredHeightResId(R.dimen.bubble_height)
+                    .build()
+            )
             // The user can turn off the bubble in system settings. In that case, this notification
             // is shown as a normal notification instead of a bubble. Make sure that this
             // notification works as a normal notification as well.
             .setContentTitle(chat.contact.name)
             .setSmallIcon(R.drawable.ic_message)
-            // TODO 4: Associate the notification with a shortcut.
             .setCategory(Notification.CATEGORY_MESSAGE)
             .setShortcutId(chat.contact.shortcutId)
             .setLocusId(LocusId(chat.contact.shortcutId))
