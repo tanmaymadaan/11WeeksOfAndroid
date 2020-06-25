@@ -77,7 +77,44 @@ class NotificationHelper(private val context: Context) {
 
     @WorkerThread
     fun updateShortcuts(importantContact: Contact?) {
-        // TODO 2: Create dynamic shortcuts.
+        var shortcuts = Contact.CONTACTS.map { contact ->
+            val icon = Icon.createWithAdaptiveBitmap(
+                context.resources.assets.open(contact.icon).use { input ->
+                    BitmapFactory.decodeStream(input)
+                }
+            )
+            ShortcutInfo.Builder(context, contact.shortcutId)
+                .setLocusId(LocusId(contact.shortcutId))
+                .setActivity(ComponentName(context, MainActivity::class.java))
+                .setShortLabel(contact.name)
+                .setIcon(icon)
+                .setLongLived(true)
+                .setCategories(setOf("com.example.android.bubbles.category.TEXT_SHARE_TARGET"))
+                .setIntent(
+                    Intent(context, MainActivity::class.java)
+                        .setAction(Intent.ACTION_VIEW)
+                        .setData(
+                            Uri.parse(
+                                "https://android.example.com/chat/${contact.id}"
+                            )
+                        )
+                )
+                .setPerson(
+                    Person.Builder()
+                        .setName(contact.name)
+                        .setIcon(icon)
+                        .build()
+                )
+                .build()
+        }
+        if (importantContact != null) {
+            shortcuts = shortcuts.sortedByDescending { it.id == importantContact.shortcutId }
+        }
+        val maxCount = shortcutManager.maxShortcutCountPerActivity
+        if (shortcuts.size > maxCount) {
+            shortcuts = shortcuts.take(maxCount)
+        }
+        shortcutManager.addDynamicShortcuts(shortcuts)
     }
 
     @WorkerThread
