@@ -1,0 +1,408 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha12] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3f5e3553e573b90c6a3f76b5ddf2610a/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad029b6bff5bbf0a3b4fe0b2d3c4916a/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/78465ffa7f677dbb684d6af943c02eb7/core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b8f0b3fb73505ed561c683921925e006/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad4e70e6718c4780f1628990895f3e3d/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/421a4a19abe6aaa42b690e3333d7da66/camera-camera2-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0f343ebc897ab6398b0cc803430b699d/camera-lifecycle-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/96b073e37933d168aab12464632ed8c7/camera-core-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8db9bed7ebb0446cef76690fd088a942/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/7949cb7e3a61033edc9470712169d2f8/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/120e429a6b393165bbfa3c3be013360c/play-services-vision-20.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2e83deee35f10b20e893f5d3d07e499c/play-services-vision-common-19.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/acaad5259edfa1f21bc3c751d5fba85f/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/89f203d6c9d555339a646a9851306a82/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/721bced265eaa12b4e25608a38c5c8bd/play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/77a131ac6d0849c611295cf849010ef4/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/44e6baf5da3aa142365018920cb55fb7/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/f5def860cf7b47c648cc2ceb516740a7/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/1c3db031e45491c9c8cd292703b75bfb/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5c2503e9d97226e7fd462a24dc746835/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2589ab2e246877ca02284b08fc8e6b30/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/e51b20f1f8e22d1b11cd8ae5cd03240a/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/564598dc8f63cdbaa7355b7ba810a770/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6fcbd956a7ac4ccbcd3f99e371f2f5e9/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9ffea2d98f43b743ff7e8fe2c3568091/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a8f4cedf718262a7e4c571ff9cf698df/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8ff5bef5e6566634bf695ec468ed5c9d/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3ce52b5d959c4b6c374b14c6337242d6/firebase-encoders-json-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c8a27fb552cd3b98d64448bfe10e4467/annotation-experimental-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5792ad521afe32726c04a1af2b92ea79/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+	package
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:20:5-49
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:1-44:12
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:19:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:22:22-62
+application
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:24:5-42:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b8f0b3fb73505ed561c683921925e006/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b8f0b3fb73505ed561c683921925e006/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:7:5-18:19
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:7:5-18:19
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/120e429a6b393165bbfa3c3be013360c/play-services-vision-20.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/120e429a6b393165bbfa3c3be013360c/play-services-vision-20.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2e83deee35f10b20e893f5d3d07e499c/play-services-vision-common-19.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2e83deee35f10b20e893f5d3d07e499c/play-services-vision-common-19.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/acaad5259edfa1f21bc3c751d5fba85f/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/acaad5259edfa1f21bc3c751d5fba85f/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/89f203d6c9d555339a646a9851306a82/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/89f203d6c9d555339a646a9851306a82/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/77a131ac6d0849c611295cf849010ef4/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/77a131ac6d0849c611295cf849010ef4/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:27:9-41
+	android:roundIcon
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:28:9-54
+	android:icon
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:30:9-40
+activity#com.google.mlkit.codelab.translate.MainActivity
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:9-37:20
+	android:screenOrientation
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:48-84
+	android:name
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:35:27-74
+meta-data#com.google.ml.vision.DEPENDENCIES
+ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:39:9-41:35
+	android:value
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:41:13-32
+	android:name
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:40:13-61
+uses-sdk
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+MERGED from [androidx.camera:camera-view:1.0.0-alpha12] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha12] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/652d4283b35516ac4aaba7ca886b63b9/camera-view-1.0.0-alpha12/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3f5e3553e573b90c6a3f76b5ddf2610a/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3f5e3553e573b90c6a3f76b5ddf2610a/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad029b6bff5bbf0a3b4fe0b2d3c4916a/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad029b6bff5bbf0a3b4fe0b2d3c4916a/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/78465ffa7f677dbb684d6af943c02eb7/core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/78465ffa7f677dbb684d6af943c02eb7/core-ktx-1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b8f0b3fb73505ed561c683921925e006/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b8f0b3fb73505ed561c683921925e006/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad4e70e6718c4780f1628990895f3e3d/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/ad4e70e6718c4780f1628990895f3e3d/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/421a4a19abe6aaa42b690e3333d7da66/camera-camera2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/421a4a19abe6aaa42b690e3333d7da66/camera-camera2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0f343ebc897ab6398b0cc803430b699d/camera-lifecycle-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0f343ebc897ab6398b0cc803430b699d/camera-lifecycle-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/96b073e37933d168aab12464632ed8c7/camera-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-beta05] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/96b073e37933d168aab12464632ed8c7/camera-core-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8db9bed7ebb0446cef76690fd088a942/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8db9bed7ebb0446cef76690fd088a942/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/7949cb7e3a61033edc9470712169d2f8/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/7949cb7e3a61033edc9470712169d2f8/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/120e429a6b393165bbfa3c3be013360c/play-services-vision-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/120e429a6b393165bbfa3c3be013360c/play-services-vision-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2e83deee35f10b20e893f5d3d07e499c/play-services-vision-common-19.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2e83deee35f10b20e893f5d3d07e499c/play-services-vision-common-19.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/acaad5259edfa1f21bc3c751d5fba85f/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/acaad5259edfa1f21bc3c751d5fba85f/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/89f203d6c9d555339a646a9851306a82/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/89f203d6c9d555339a646a9851306a82/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/721bced265eaa12b4e25608a38c5c8bd/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/721bced265eaa12b4e25608a38c5c8bd/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/77a131ac6d0849c611295cf849010ef4/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/77a131ac6d0849c611295cf849010ef4/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/44e6baf5da3aa142365018920cb55fb7/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/44e6baf5da3aa142365018920cb55fb7/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/f5def860cf7b47c648cc2ceb516740a7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/f5def860cf7b47c648cc2ceb516740a7/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/1c3db031e45491c9c8cd292703b75bfb/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/1c3db031e45491c9c8cd292703b75bfb/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5c2503e9d97226e7fd462a24dc746835/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5c2503e9d97226e7fd462a24dc746835/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2589ab2e246877ca02284b08fc8e6b30/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2589ab2e246877ca02284b08fc8e6b30/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/e51b20f1f8e22d1b11cd8ae5cd03240a/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/e51b20f1f8e22d1b11cd8ae5cd03240a/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/564598dc8f63cdbaa7355b7ba810a770/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/564598dc8f63cdbaa7355b7ba810a770/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6fcbd956a7ac4ccbcd3f99e371f2f5e9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/6fcbd956a7ac4ccbcd3f99e371f2f5e9/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9ffea2d98f43b743ff7e8fe2c3568091/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9ffea2d98f43b743ff7e8fe2c3568091/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a8f4cedf718262a7e4c571ff9cf698df/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a8f4cedf718262a7e4c571ff9cf698df/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8ff5bef5e6566634bf695ec468ed5c9d/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8ff5bef5e6566634bf695ec468ed5c9d/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3ce52b5d959c4b6c374b14c6337242d6/firebase-encoders-json-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/3ce52b5d959c4b6c374b14c6337242d6/firebase-encoders-json-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c8a27fb552cd3b98d64448bfe10e4467/annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c8a27fb552cd3b98d64448bfe10e4467/annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5792ad521afe32726c04a1af2b92ea79/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/5792ad521afe32726c04a1af2b92ea79/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:8:9-17:19
+MERGED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:8:9-17:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar
+ADDED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:12:17-113
+meta-data#com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar
+ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar
+ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:15:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:26:22-64
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:33:13-132

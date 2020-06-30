@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2019 Google Inc. All Rights Reserved.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~ http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~  Unless required by applicable law or agreed to in writing, software
+12  ~  distributed under the License is distributed on an "AS IS" BASIS,
+13  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~  See the License for the specific language governing permissions and
+15  ~  limitations under the License.
+16  ~
+17-->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    package="com.google.mlkit.codelab.translate"
+20    android:versionCode="1"
+21    android:versionName="1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="21"
+24-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+25        android:targetSdkVersion="29" />
+25-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:22:5-65
+27-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:22:22-62
+28
+29    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:25:5-79
+31-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:25:22-76
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:26:5-67
+32-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:26:22-64
+33
+34    <application
+34-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:24:5-42:19
+35        android:allowBackup="true"
+35-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:25:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/a01e98cce796151450fd7e15b0345559/core-1.3.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:26:9-43
+39        android:label="@string/app_name"
+39-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:27:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:28:9-54
+41        android:supportsRtl="true"
+41-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:29:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:30:9-40
+44        <activity
+44-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:9-37:20
+45            android:name="com.google.mlkit.codelab.translate.MainActivity"
+45-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:19-47
+46            android:screenOrientation="portrait" >
+46-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:31:48-84
+47            <intent-filter>
+47-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:32:13-36:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:33:17-69
+48-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:35:17-77
+50-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
+53        <!-- Automatically download the text recognition model after app install -->
+54        <meta-data
+54-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:39:9-41:35
+55            android:name="com.google.ml.vision.DEPENDENCIES"
+55-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:40:13-61
+56            android:value="ocr" />
+56-->/Users/tanmaymadaan/Downloads/mlkit-android-master/translate/starter/app/src/main/AndroidManifest.xml:41:13-32
+57
+58        <service
+58-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:9:9-15:19
+59            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+59-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:10:13-91
+60            android:directBootAware="true"
+60-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:17:13-43
+61            android:exported="false" >
+61-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:11:13-37
+62            <meta-data
+62-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+63-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:13:17-114
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/408eec78204078769e18beb1af3eb353/play-services-mlkit-text-recognition-16.0.0/AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:11:13-13:85
+66                android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar"
+66-->[com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:12:17-113
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.mlkit:language-id:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/9352ae66dd54da6d12cf56266313cd6a/language-id-16.0.0/AndroidManifest.xml:13:17-82
+68            <meta-data
+68-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar"
+69-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:12:17-126
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:13:17-82
+71            <meta-data
+71-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:14:13-16:85
+72                android:name="com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar"
+72-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:15:17-114
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:translate:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/0ba634e34c2b28d483d51ca75f38996d/jetified-translate-16.0.0/AndroidManifest.xml:16:17-82
+74            <meta-data
+74-->[com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:12:13-14:85
+75                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+75-->[com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:13:17-124
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.mlkit:vision-common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/c110b330005f034f7f79256a9cf2f3d2/vision-common-16.0.0/AndroidManifest.xml:14:17-82
+77            <meta-data
+77-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:20:13-22:85
+78                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+78-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:21:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:22:17-82
+80        </service>
+81
+82        <provider
+82-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:9:9-13:38
+83            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+83-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:10:13-78
+84            android:authorities="com.google.mlkit.codelab.translate.mlkitinitprovider"
+84-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:11:13-69
+85            android:exported="false"
+85-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:12:13-37
+86            android:initOrder="99" />
+86-->[com.google.mlkit:common:16.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/991d9532f60ac40f11b8b81795e1e90e/common-16.0.0/AndroidManifest.xml:13:13-35
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/59575653ac69a5f74f1243f891eb83df/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/cf202ced792b164ba31caf6484b33686/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+96
+97        <provider
+97-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+98            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+99            android:authorities="com.google.mlkit.codelab.translate.lifecycle-process"
+99-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+100            android:exported="false"
+100-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+101            android:multiprocess="true" />
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/940fc20dd4b6ab267dc71ff94591ead7/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+102
+103        <service
+103-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:29:9-35:19
+104            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+104-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:30:13-103
+105            android:exported="false" >
+105-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:31:13-37
+106            <meta-data
+106-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:32:13-34:39
+107                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+107-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:33:17-94
+108                android:value="cct" />
+108-->[com.google.android.datatransport:transport-backend-cct:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/8a557ae29b255f3aa24101c773cbf1b0/jetified-transport-backend-cct-2.2.2/AndroidManifest.xml:34:17-36
+109        </service>
+110        <service
+110-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:26:9-30:19
+111            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+111-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:27:13-117
+112            android:exported="false"
+112-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:28:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" >
+113-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:29:13-69
+114        </service>
+115
+116        <receiver
+116-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:32:9-34:40
+117            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+117-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:33:13-132
+118            android:exported="false" />
+118-->[com.google.android.datatransport:transport-runtime:2.2.2] /Users/tanmaymadaan/.gradle/caches/transforms-2/files-2.1/45fd2aec1bc82a2a8072d87f7b315238/jetified-transport-runtime-2.2.2/AndroidManifest.xml:34:13-37
+119    </application>
+120
+121</manifest>

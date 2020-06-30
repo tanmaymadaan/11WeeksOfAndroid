@@ -45,6 +45,7 @@ class TextAnalyzer(
 ) : ImageAnalysis.Analyzer {
 
     // TODO: Instantiate TextRecognition detector
+    private val detector = TextRecognition.getClient()
 
     // TODO: Add lifecycle observer to properly close ML Kit detectors
 
@@ -94,11 +95,28 @@ class TextAnalyzer(
         val croppedBitmap =
             ImageUtils.rotateAndCrop(convertImageToBitmap, rotationDegrees, cropRect)
 
-        // TODO call recognizeText() once implemented
+        recognizeTextOnDevice(InputImage.fromBitmap(croppedBitmap, 0)).addOnCompleteListener {
+            imageProxy.close()
+        }
     }
 
-    fun recognizeText() {
-        // TODO Use ML Kit's TextRecognition to analyze frames from the camera live feed.
+    private fun recognizeTextOnDevice(
+        image: InputImage
+    ): Task<Text> {
+        // Pass image to an ML Kit Vision API
+        return detector.process(image)
+            .addOnSuccessListener { visionText ->
+                // Task completed successfully
+                result.value = visionText.text
+            }
+            .addOnFailureListener { exception ->
+                // Task failed with an exception
+                Log.e(TAG, "Text recognition error", exception)
+                val message = getErrorMessage(exception)
+                message?.let {
+                    Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
+                }
+            }
     }
 
     private fun getErrorMessage(exception: Exception): String? {
