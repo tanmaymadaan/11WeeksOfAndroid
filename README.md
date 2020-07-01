@@ -4,7 +4,9 @@
 This repository contains all the codelabs from Google Developer's 11 Weeks of Android Program
 
 Branch for Codelabs:
+
 [Week1 - Conversation and Bubbles](https://github.com/tanmaymadaan/11WeeksOfAndroid/tree/Week1-PeopleAndIdentity)
+
 [Week2 - CameraX and OCR](https://github.com/tanmaymadaan/11WeeksOfAndroid/tree/Week2-MachineLearning)
 
 * ## Week 1 - People and Identity
