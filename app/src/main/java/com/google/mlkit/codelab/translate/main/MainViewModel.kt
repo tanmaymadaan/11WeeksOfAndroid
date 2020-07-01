@@ -87,11 +87,38 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     private fun translate(): Task<String> {
-        // TODO Take the source language value, target language value, and the source text and
-        //  perform the translation.
-        //  If the chosen target language model has not been downloaded to the device yet,
-        //  call downloadModelIfNeeded() and then proceed with the translation.
-        return Tasks.forResult("") // replace this with your code
+        val text = sourceText.value
+        val source = sourceLang.value
+        val target = targetLang.value
+        if (modelDownloading.value != false || translating.value != false) {
+            return Tasks.forCanceled()
+        }
+        if (source == null || target == null || text == null || text.isEmpty()) {
+            return Tasks.forResult("")
+        }
+        val sourceLangCode = TranslateLanguage.fromLanguageTag(source.code)
+        val targetLangCode = TranslateLanguage.fromLanguageTag(target.code)
+        if (sourceLangCode == null || targetLangCode == null) {
+            return Tasks.forCanceled()
+        }
+        val options = TranslatorOptions.Builder()
+            .setSourceLanguage(sourceLangCode)
+            .setTargetLanguage(targetLangCode)
+            .build()
+        val translator = translators[options]
+        modelDownloading.setValue(true)
+
+        // Register watchdog to unblock long running downloads
+        Handler().postDelayed({ modelDownloading.setValue(false) }, 15000)
+        modelDownloadTask = translator.downloadModelIfNeeded().addOnCompleteListener {
+            modelDownloading.setValue(false)
+        }
+        translating.value = true
+        return modelDownloadTask.onSuccessTask {
+            translator.translate(text)
+        }.addOnCompleteListener {
+            translating.value = false
+        }
     }
 
     // Gets a list of all available translation languages.
