@@ -3,6 +3,10 @@
 
 This repository contains all the codelabs from Google Developer's 11 Weeks of Android Program
 
+Branch for Codelabs:
+[Week1 - Conversation and Bubbles](https://github.com/tanmaymadaan/11WeeksOfAndroid/tree/Week1-PeopleAndIdentity)
+[Week2 - CameraX and OCR](https://github.com/tanmaymadaan/11WeeksOfAndroid/tree/Week2-MachineLearning)
+
 * ## Week 1 - People and Identity
 
 Connecting people easily and securely has many challenges. Android 11 announces the Connection Notification API along with Google Identity Services Library to improve the user signup/signin process.
